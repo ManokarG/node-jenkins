@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha --exit ./test/test.js",
-    "start": "node src"
+    "start": "node src",
+    "deploy": "pm2 start ./src"
   },
   "author": "",
   "license": "ISC",
